@@ -131,7 +131,7 @@ textarea {
 
 /* menu */
 .menu{
-    background-color: #92a3ab;
+    background-color: #3a9199;
     position: sticky;
    
 }
@@ -370,16 +370,49 @@ textarea {
 
 .img-bacho{
     width: 100%;
-    background-color: #ffffff;
+    background-color: #f1f3f4;
     border-radius: 3px;
     margin: 10px 0;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
 }
 .img-bacho img{
     width: 100%;
     object-fit: cover;
+}
+.video-news{
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #eef8f9;
+}
+
+}
+
+.video-news .vd-n-title {
+    padding: 10px 0;
+    border: 1px solid red;
+}
+
+.video-news .vd-n-list{
+    width: 100%;
+    list-style: none;
+    padding:10px 0;
+}
+.video-news .vd-n-list .vd-n-link{
+    display: block;
+    padding: 4px 0;
+}
+.video-news .vd-n-list .vd-n-link .vd-n-l-title{
+color:#333;
+}
+.video-news .vd-n-list  .vd-n-l-img img{
+    width: 100%;
+    object-fit: contain;
+}
+.video-news .vd-n-list .vd-n-l-title span{
+    font-size: 16px;
 }
 
 
