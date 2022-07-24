@@ -334,6 +334,8 @@ padding: 4px 0;
 
 
    .main-content .main-right-content {
+    position: sticky;
+    top:0;
 
 }
     .main-content .main-right-content .main-right-news{
